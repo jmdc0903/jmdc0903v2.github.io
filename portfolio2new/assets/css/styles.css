@@ -144,20 +144,25 @@ section div.section-container{
     padding: 0px;
     margin: 0px;
     justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 #about-section-container {
     background-color: rgba(55, 57, 57, 0.334);
     display: flex;
+    width: 100%;
+    
 }
 
 #rowsize{
     display: flex;
     width: 1024px;
+    margin: 0px;
 }
 #toolscontainer {
     display: flex;
-    width: 1024px;
+    width: 100%;
     margin: 0px auto;
     padding-bottom: 50px;
 }
@@ -173,6 +178,8 @@ section div.section-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 1024px;
+    padding: 0px;
     margin-bottom: 100px;
 }
 
@@ -180,7 +187,8 @@ section div.section-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 50px 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #bullet {
@@ -194,7 +202,9 @@ table tr{
 
 #infocard1 {
     display: flex;
-    margin: 30px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 0px;
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -202,19 +212,22 @@ table tr{
 }
 #infocard2 {
     display: flex;
-    margin: 30px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left:190px;
+    padding-right: 0px;
     align-items: center;
     align-content: center;
     justify-content: center;
 }
 #infocard1size{
     height: 350px;
-    width: 350px;
+    width: 512px;
     
 }
 #infocard2size{
     height: 350px;
-    width: 350px;
+    width: 512px;
 }
 
 #sample2 div ul li{
@@ -264,7 +277,7 @@ table tr{
     transition: box-shadow 1s ease;
 }
 
-#infocard1:hover {
+/* #infocard1:hover {
     padding: 10px 10px;
     color: white;
     border: none;
@@ -273,9 +286,9 @@ table tr{
     box-shadow: 0 0 20px 0 #13080bcf;
     background-color: rgba(8, 27, 27, 0.559);
     transition: box-shadow 1s ease;
-}
+} */
 
-#infocard2:hover {
+/* #infocard2:hover {
     padding: 10px 10px;
     color: white;
     border: none;
@@ -284,7 +297,7 @@ table tr{
     box-shadow: 0 0 20px 0 #13080bcf;
     background-color: rgba(8, 27, 27, 0.559);
     transition: box-shadow 1s ease;
-}
+} */
 
 #tools-section h5:hover {
     color: white;
@@ -294,44 +307,25 @@ table tr{
     cursor: pointer;
 }
 
-#section-experience .section-container > h1{
-    text-align: center;
-    margin-bottom: 60px;
-}
 
-.work-container{
+#work-experience-section{
+    background-color: rgba(55, 57, 57, 0.334) !important;
     display: flex;
-    justify-content: space-between;
-}
-
-.work-head-container{
-    background-color: #4BBFAB;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    border-radius: 10px 0px 0px 10px;
-    width: 30%;
+    
 }
 
-.work-details-container {
-    width: 70%;
-    background-color: #FFFFFF;
-    padding: 50px;
-    text-align: start;
-    border-radius: 0px 10px 10px 0px;
-    color: #000000;
+#work-experience-section-container{
+    width: 1024px;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
 }
 
-.work-details-container h1, .work-details-container p{
-    color: #000000;
+
+#section-hero {
+    border: #13080bcf;
+    border-color: black;
+    border-style:outset;
 }
 
-.work-head-container p{
-    margin-bottom: 20px;
-}
-
-.work-details-container h1{
-    font-size: 24px;
-}    
