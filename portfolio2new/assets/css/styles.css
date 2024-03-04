@@ -13,8 +13,9 @@ nav {
     display: flex;
     justify-content: center;
     width: 100%;
-    background-color: rgba(55, 57, 57, 0.334);
-
+    background-color: rgba(55, 57, 57, 0.603);
+    position: fixed;
+    
 }
 #nav-container {
     width: 1024px;
@@ -50,6 +51,9 @@ nav {
     display: flex;
     list-style: none;
     margin: 0px;
+    justify-content: space-between;
+    width: 800px;
+    padding: 0px;
 }
 
 #nav-menu ul li{
@@ -85,7 +89,7 @@ section, footer {
     margin: auto;
     background-color: white;
     height: 320px;
-    margin-top: 0px auto;
+    margin-top: 0px;
     width: 1024px;
     
 
@@ -100,6 +104,7 @@ section div.section-container{
     display: flex;
     width: 1024px;
     height: auto;
+    
     
 }
 
@@ -180,6 +185,7 @@ section div.section-container{
     align-items: center;
     width: 1024px;
     padding: 0px;
+    margin: 0px;
     margin-bottom: 100px;
 }
 
@@ -245,15 +251,15 @@ table tr{
 #icons1 {
     width: 1024px;
     display: flex;
-    margin: 0px auto;
-    justify-content: space-around;
+    margin: 0px;
+    justify-content: space-between;
 }
 
 #icons2 {
     width: 1024px;
     display: flex;
-    margin: 0px auto;
-    justify-content: space-around;
+    margin: 0px;
+    justify-content: space-between;
 }
 
 #icons1 .col:hover {
@@ -322,10 +328,110 @@ table tr{
     padding: 0px;
 }
 
+#experience-section{
+    background-color: rgba(55, 57, 57, 0.334);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
-#section-hero {
-    border: #13080bcf;
-    border-color: black;
-    border-style:outset;
+#experience-section h5:hover {
+    color: white;
+    padding: 10px 10px;
+    background-color: rgba(8, 27, 27, 0.347);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#trainings-seminars-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#trainings-seminars-section h5:hover {
+    color: white;
+    padding: 10px 10px;
+    background-color: rgba(8, 27, 27, 0.347);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#row1{
+    background-color: rgba(55, 57, 57, 0.334);
+    width: 100%;
+    height: auto;
+}
+
+#row2{
+    background-color: rgba(55, 57, 57, 0.334);
+    width: 100%;
+    height: auto;
+}
+
+#row3{
+    background-color: rgba(55, 57, 57, 0.334);
+    width: 100%;
+    height: auto;
+}
+
+#container1{
+    width: 100% !important;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+#tr-sm-sc{
+    width: 100%;
+    height: auto;
+}
+
+#footer{
+    padding: 50px 0px;
+    justify-content: center;
+}
+
+#footer h5:hover {
+    color: white;
+    padding: 10px 10px;
+    background-color: rgba(8, 27, 27, 0.347);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#footer-section{
+    background-color: rgba(55, 57, 57, 0.334);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0px;
+}
+
+#footer-size{
+    width: 1024px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+#footer-size2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 0px auto;
+}
+
+#footer-size .col:hover{
+    padding: 2px 2px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 #13080bcf;
+    background-color: rgba(8, 27, 27, 0.559);
+    transition: box-shadow 1s ease;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
