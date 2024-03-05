@@ -33,7 +33,7 @@
         <section id="section-hero">
             <div class="section-container">
                 <div id="section-hero-container">
-                    <div>
+                    <div id="herodetails">
                         <h2>Hi! I'm</h2>
                         <p>John Michael Dela Cruz</p>
                         <p class="indented justified"><i>I am a software engineer and I enjoy creating solutions for the web, constantly learning and refining my craft to deliver effective and user-centric applications.</i></p>
@@ -197,16 +197,16 @@
       <footer class="text-dark py-5 justify-content-center" id="footer-size"> 
             <div class="row container-fluid m-0 p-0 justify-content-center" id="footer-size2">
             <div class="col p-0 text-center">
-                <i class="fa-solid fa-envelope fa-4x"></i><br/><h6>Gmail</h6>
+                <i class="fa-solid fa-envelope fa-4x"></i><br/><a href="https://myaccount.google.com/?hl=en" target="_blank"><h6>Gmail</h6></a>
             </div>
             <div class="col p-0 text-center">
-                <i class="fa-brands fa-linkedin fa-4x"></i><br/><h6>Linkedin</h6>
+                <i class="fa-brands fa-linkedin fa-4x"></i><br/><a href="https://www.linkedin.com/in/john-michael-dela-cruz-9498671b1/" target="_blank"><h6>Linkedin</h6></a>
             </div>
             <div class="col p-0 text-center">
-                <i class="fa-brands fa-facebook fa-4x"></i><br/><h6>Facebook</h6>
+                <i class="fa-brands fa-facebook fa-4x"></i><br/><a href="https://www.facebook.com/johnmichael.delacruz03" target="_blank"><h6>Facebook</h6></a>
             </div>
             <div class="col p-0 text-center">
-                <i class="fa-brands fa-skype fa-4x"></i><br/><h6>Skype</h6>
+                <i class="fa-brands fa-skype fa-4x"></i><br/><a href="https://join.skype.com/invite/U87C1z6eD4WD" target="_blank"><h6>Skype</h6></a>
             </div>
             <div class="row mt-3 p-0">
                 <div class="col-md-12 text-center pt-5">
@@ -219,3 +219,18 @@
     </main>
 </body>
 </html>
+
+<script>
+    var onresize = function() {
+
+    width = document.body.clientWidth;
+    height = document.body.clientHeight;
+
+    console.log(width);
+    }
+
+    window.addEventListener("resize", onresize);
+</script>
+
+
+
