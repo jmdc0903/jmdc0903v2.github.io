@@ -32,6 +32,18 @@ html, body {
     background-color: rgba(55, 57, 57, 0.603);
 }
 
+#header-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    transition: top 0.3s; 
+}
+
+
 #logo img:hover{
     padding: 1px 1px;
     color: white;
@@ -99,4 +111,17 @@ html, body {
 
 #bottom{
     background-color: rgba(55, 57, 57, 0.603);
+}
+
+
+#footer-section div i:hover{
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0 #13080bcf;
+    background-color: rgba(8, 27, 27, 0.559);
+    transition: box-shadow 1s ease;
+
 }
