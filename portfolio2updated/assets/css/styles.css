@@ -43,7 +43,6 @@ html, body {
     transition: top 0.3s; 
 }
 
-
 #logo img:hover{
     padding: 1px 1px;
     color: white;
@@ -101,10 +100,6 @@ html, body {
     background-color: rgba(55, 57, 57, 0.603);
 }
 
-/* #footer-section{
-    background-color: rgba(55, 57, 57, 0.603);
-} */
-
 #footer{
     background-color: rgba(55, 57, 57, 0.603);
 }
@@ -114,7 +109,7 @@ html, body {
 }
 
 
-#footer-section div i:hover{
+#footer-logo i:hover{
     padding: 10px 10px;
     color: white;
     border: none;
@@ -123,5 +118,4 @@ html, body {
     box-shadow: 0 0 20px 0 #13080bcf;
     background-color: rgba(8, 27, 27, 0.559);
     transition: box-shadow 1s ease;
-
 }
