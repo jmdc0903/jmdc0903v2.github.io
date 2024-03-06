@@ -13,6 +13,7 @@ nav {
     display: flex;
     justify-content: center;
     width: 100%;
+    max-width: 1024px;
     background-color: rgba(55, 57, 57, 0.603);
     position: fixed;
     
