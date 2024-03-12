@@ -10,35 +10,31 @@
         <link rel="shortcut icon" href="assets/images/PHLogo.png" type="image/x-icon">
     </head>
     <body>
-        <header id="header-container">
-            <div class="p-0" style="max-width: 1024px; margin: auto;">
-                <nav class="navbar navbar-expand-sm text-dark justify-content-center mx-auto">
-                    <div id="logo-container">
-                        <div id="nav-logo">
-                            <a href="#header-container"><img id="header-img" src="assets/images/PHLogo.png" alt="Michael Logo" width="50px"></a>
-                        </div>
-                    </div>
-                    <button id="navhome" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-                        <span class="navbar-toggler-icon"></span>
+        <header>
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
                     </button>
-                    <div id="mynavbar" class="collapse navbar-collapse justify-content-center" >       
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about-section-container">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#toolscontainer1">Skills</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#experience-container">Work Experiences</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#trainings-container">Trainings & Seminars</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+                    <a class="navbar-brand" href="#">WebSiteName</a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                      <li class="active"><a href="#">Home</a></li>
+                      <li><a href="#">Page 1</a></li>
+                      <li><a href="#">Page 2</a></li>
+                      <li><a href="#">Page 3</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
         <main>
             <div class="container px-0 pt-5" style="max-width: 100vw; overflow-x: hidden;">
@@ -53,7 +49,6 @@
                                 <a href="assets/files/2024 - RESUME - JOHN MICHAEL DELA CRUZ.pdf" download="2024 - RESUME - JOHN MICHAEL DELA CRUZ" class="link-custom" id="cv">Click Here to Download CV & Hire Me!</a>
                             </div>
                         </div>
-                        
                     </div>
                     <div class="col-md-6 py-4">
                         <div class="text-center px-3">
@@ -62,164 +57,8 @@
                     </div>
                 </div>
             </div>
-            <section id="about-section-container">
-                <div class="container py-5 px-3" style="max-width: 1024px;" id="about-section">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <h5 class="m-0 pb-4">About Me</h5>
-                            <p class="first-line-indent">I'm a web developer who is responsible for the design and construction of websites. I always make sure that sites meet user expectations by ensuring they look good, run smoothly, and offer easy access points with no loading issues between pages or error messages.</p>
-                            <p>As I go through this career, I'm so eager to continue learning so that I can be flexible and adapt to our fast-changing technologies.</p>
-                        </div>
-                        <div class="col-lg-6">
-                            <h5 class="text-start m-0 pb-4">Basic Information</h5>
-                            <div class="row">
-                                <div class="col-6">
-                                    <p>AGE</p>
-                                    <p>GENDER</p>
-                                    <p>CITIZENSHIP</p>
-                                    <p>LANGUAGE</p>
-                                    <p>ADDRESS</p>
-                                </div>
-                                <div class="col-6">
-                                    <p>30</p> 
-                                    <p>MALE</p>
-                                    <p>FILIPINO</p>
-                                    <p>ENGLISH & FILIPINO</p>
-                                    <p>BULACAN PHILIPPINES</p>            
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="toolscontainer1">
-                <div id="tools-section" class="text-center m-0 py-5"><h5>TECHNOLOGIES / TOOLS</h5></div>
-                <div class="row px-0 pb-3" id="toolsicons" style="max-width: 1024px; margin: auto;">
-                    <div class="col-6 col-md-3 text-center mb-4">
-                        <i class="fab fa-html5 fa-4x" style="color: #ff8c00;"></i><br/><h6>HTML5</h6>
-                    </div>
-                    <div class="col-6 col-md-3 text-center mb-4">
-                        <i class="fab fa-css3-alt fa-4x" style="color: #0000ff;"></i><br/><h6>CSS3</h6>
-                    </div>
-                    <div class="col-6 col-md-3 text-center mb-4">
-                        <i class="fab fa-js-square fa-4x" style="color: #FFD43B;"></i><br/><h6>JavaScript</h6>
-                    </div>
-                    <div class="col-6 col-md-3 text-center mb-4">
-                        <i class="fab fa-bootstrap fa-4x" style="color: #B197FC;"></i><br/><h6>BOOTSTRAP</h6>
-                    </div>
-                </div>
-            </section>
-            <section id="toolscontainer2" class="pb-5">
-                <div class="row justify-content-center px-2" style="max-width: 1024px; margin: auto;">
-                    <div class="col-6 col-md-3 text-center mb-4">
-                        <i class="fab fa-react fa-4x" style="color: #74C0FC;"></i><br/><h6>React</h6>
-                    </div>
-                    <div class="col-6 col-md-3 text-center mb-4">
-                        <i class="fab fa-php fa-4x" style="color: #000000;"></i><br/><h6>PHP</h6>
-                    </div>
-                    <div class="col-6 col-md-3 text-center mb-4">
-                        <i class="fas fa-database fa-4x" style="color: #FFD43B;"></i><br/><h6>MySQL</h6>
-                    </div>
-                    <div class="col-6 col-md-3 text-center mb-4">
-                        <i class="fab fa-laravel fa-4x" style="color: #dc143c;"></i><br/><h6>Laravel</h6>
-                    </div>
-                </div>
-            </section>
-            <section id="experience-container">
-                <div id="experience-section" style="max-width: 1024px; margin: auto;" class="pb-5">
-                    <div id="tools-section" class="text-center py-5"><h5 class="m-0">WORK EXPERIENCES</h5></div>
-                    <div class="container">
-                        <div class="row">
-                          <div class="col">
-                            <h6>TELEPERFORMANCE <br/> September 26, 2023 - December 17, 2023 (Seasonal Account)</h6>
-                          </div>
-                          <div class="col">
-                            <h6>Account: WELLCARE <br/>
-                                Position: Customer Service Representative <br/>
-                                Address: Vertis North, Quezon City Philippines</h6>
-                          </div>
-                        </div>
-                    </div> <br/>
-                    <div class="container">
-                        <div class="row">
-                          <div class="col">
-                            <h6>JOBSQIK INC <br/>
-                                February 1, 2023 - August 31, 2023 </h6>
-                          </div>
-                          <div class="col">
-                            <h6>Online Freelance / Canada based job <br/>
-                            Position: Virtual Assistant / Data Entry Analyst / Recruitment Process Assistant <br/>
-                            VA for resume job application services / Job Placement Specialist</h6>
-                          </div>
-                        </div>
-                    </div> <br/>
-                    <div class="container">
-                        <div class="row">
-                          <div class="col">
-                            <h6>ACCENTURE INC<br/>
-                                November 8,2021 - January 31,2023</h6>
-                          </div>
-                          <div class="col">
-                            <h6>Account: Community Operations <br/>
-                                Position: Data Analyst / Community Operations Analyst / Trust and Safety New Associate (Content Moderator: Filipino Market) <br/>
-                                Address: 60 General Aguinaldo Ave, Cubao, Quezon City, 1109, Cyberpark Tower 1 </h6>
-                          </div>
-                        </div>
-                    </div> <br/>
-                    <div class="container">
-                        <div class="row">
-                          <div class="col">
-                            <h6>MIND DRAGON CONSULTANCY FIRM <br/>
-                                November 11, 2017 to March 2020 </h6>
-                          </div>
-                          <div class="col">
-                            <h6>Account: Verizon <br/>
-                                Position: Associate Operations Analyst (DVR/BPO Department)  
-                                DVR Associate  
-                                Promoted as DVR Cluster Lead  
-                                Promoted as DVR Senior Cluster Lead  
-                                Administrative Assistant 
-                                Return and Exchange Policy Assistant</h6>
-                          </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="trainings-container" class="text-center">
-                <div class="text-center py-5"><h5 class="m-0">TRAININGS & SEMINARS</h5></div>
-                <div class="trainings-section">
-                    <div class="row" style="margin: auto;">
-                        <div class="col-12">
-                            <div class="pb-5">
-                                <h6 class="m-0">KODEGO FULL-STACK WEB DEVELOPMENT COURSE <br/> January 2024 - Present</h6>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="pb-5">
-                                <h6 class="m-0">Christian Bible Church of Hagonoy - Cell Group Leader/Bible Study Leader <br/> January 2018 - Present</h6>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="pb-5">
-                                <h6 class="m-0">Christian Bible Church of Hagonoy - School Of Leaders Level 1, 2 and 3 Graduate <br/> January 2020</h6>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="pb-5">
-                                <h6 class="m-0">Microsoft Office Specialist for Office Excel 2016 Exam Certifications <br/> March 11, 2019</h6>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="pb-5">
-                                <h6 class="m-0">Microsoft Office Specialist for Office Excel 2016 Expert Exam Certifications <br/> September 2, 2019</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
         <footer class="container-fluid">
-            <div id="footer" class="row py-5 text-center"><h5>CONNECT WITH ME!</h5></div>
+            <div id="footer" class="row py-3 text-center"><h5>CONNECT WITH ME!</h5></div>
             <section class="text-dark py-5" style="max-width: 1024px; margin: auto;"> 
                 <div class="row m-0 p-0" id="footer-logo">
                     <div class="col p-0 text-center">

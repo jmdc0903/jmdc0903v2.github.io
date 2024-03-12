@@ -21,7 +21,7 @@ html, body {
     border-radius: 20px;
 }
 #header-container{
-    background-color: rgba(55, 57, 57, 0.603);
+    /* background-color: rgba(90, 195, 231, 0.819); */
 }
 #header-container {
     position: fixed;
@@ -71,7 +71,7 @@ html, body {
     background-color: rgba(14, 233, 36, 0.483);
 }
 #about-section-container{
-    background-color: rgba(55, 57, 57, 0.603);
+    /* background-color: rgba(90, 195, 231, 0.819); */
 }
 #toolscontainer1 i:hover{
     padding: 10px 10px;
@@ -94,13 +94,13 @@ html, body {
     transition: box-shadow 1s ease;
 }
 #experience-container{
-    background-color: rgba(55, 57, 57, 0.603);
+    /* background-color: rgba(90, 195, 231, 0.819); */
 }
 #footer{
-    background-color: rgba(55, 57, 57, 0.603);
+    /* background-color: rgba(90, 195, 231, 0.819); */
 }
 #bottom{
-    background-color: rgba(55, 57, 57, 0.603);
+    /* background-color: rgba(90, 195, 231, 0.819); */
 }
 #footer-logo i:hover{
     padding: 10px 10px;
@@ -111,4 +111,12 @@ html, body {
     box-shadow: 0 0 20px 0 #13080bcf;
     background-color: rgba(8, 27, 27, 0.559);
     transition: box-shadow 1s ease;
+}
+#my-projects h5{
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    /* padding: 5px 5px; */
 }
