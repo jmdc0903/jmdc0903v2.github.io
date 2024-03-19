@@ -1,82 +1,31 @@
-let Items = [];
-let editingIndex = -1;
-document.getElementById("log").addEventListener('click', function() {
-    if (!validateForm()) {
-        return;
-    }
-    let ID = document.getElementById("id").value;
-    let Name = document.getElementById("name").value;
-    let Hours = document.getElementById("hours").value;
-    if (IDExists(ID)) {
-        alert("Employee ID already exists!");
-        return;
-    }
-    if (editingIndex > -1) { 
-        Items[editingIndex] = [ID, Name, Hours];
-        editingIndex = -1;
-    } else {
-        Items.push([ID, Name, Hours]);
-    }
-    DrawList();
-    document.getElementById("id").value = "";
-    document.getElementById("name").value = "";
-    document.getElementById("hours").value = "";
+let EmployeeHours = [];
+document.getElementById("btnLog").addEventListener('click', function() {
+    let EmpId = document.getElementById("txtEmpId").value;
+    let EmpName = document.getElementById("txtEmpName").value;
+    let EmpHrs = document.getElementById("txtEmpHrs").value;
+     if (EmpId === "" || EmpName === "" || EmpHrs === "") {
+        alert("Please fill in all fields.");
+        return; 
+    } 
+    EmployeeHours.push([EmpId, EmpName, EmpHrs]);
+    DrawTable();
 });
-function IDExists(id) {
-    for (let i = 0; i < Items.length; i++) {
-        if (Items[i][0] === id) {
-            return true;
-        }
+function DrawTable() {
+    let TableBody = "";
+    let Total = 0;
+    for(let x = 0; x < EmployeeHours.length; x++) {
+        TableBody += "<tr>";
+        TableBody += "<td>"+ EmployeeHours[x][0]+"</td>";
+        TableBody += "<td>"+ EmployeeHours[x][1]+"</td>";
+        TableBody += "<td>"+ EmployeeHours[x][2]+"</td>";
+        TableBody += "<td><button class='btn btn-danger btn-sm' onclick='remove("+x+");'>Remove</buton></td>";
+        TableBody += "</tr>";
+        Total += parseFloat(EmployeeHours[x][2]);
     }
-    return false;
+    document.getElementById("p-total").innerText = Total;
+    document.getElementById("tableBody").innerHTML = TableBody;
 }
 function remove(index) {
-    Items.splice(index, 1);
-    DrawList();
-}
-function edit(index) {
-    editingIndex = index;
-    document.getElementById("id").value = Items[index][0]; 
-    document.getElementById("name").value = Items[index][1];
-    document.getElementById("hours").value = Items[index][2];
-    document.getElementById("log").innerText = "Update Details";
-}
-function DrawList() {
-    let table = "<table class='table'>";
-    table += "<thead><tr><th>ID</th><th>Name</th><th>Hours</th><th colspan='2' class='text-center'>Action</th></tr></thead>";
-    table += "<tbody>";
-    for (let x = 0; x < Items.length; x++) {
-        table += "<tr>";
-        table += "<td>" + Items[x][0] + "</td>";
-        table += "<td>" + Items[x][1] + "</td>";
-        table += "<td>" + Items[x][2] + "</td>";
-        table += "<td><button class='btn btn-danger' onclick='remove(" + x + ")'>Remove</button></td>";
-        table += "<td><button class='btn btn-primary' onclick='edit(" + x + ")'>Edit</button></td>";
-        table += "</tr>";
-    }
-    table += "</tbody></table>";
-    document.getElementById("table-list").innerHTML = table;
-}
-function validateForm() {
-    let x = document.forms["empID"]["inputID"].value;
-    let y = document.forms["empName"]["inputName"].value;
-    let z = document.forms["empHours"]["inputHours"].value;
-    if (x == "") {
-        alert("Employee ID must be filled out");
-        return false;
-    } else if (y == "") {
-        alert("Employee Name must be filled out");
-        return false;
-    } else if (z == "") {
-        alert("Employee Hours must be filled out");
-        return false;
-    } 
-    return true;
-}
-function computeTotalHours() {
-    let totalHours = 0;
-    for (let i = 0; i < Items.length; i++) {
-        totalHours += parseInt(Items[i][2]);
-    }
-    alert("Total Hours: " + totalHours);
+    EmployeeHours.splice(index, 1);
+    DrawTable();
 }
