@@ -20,3 +20,29 @@
 // document.querySelector("#btnRed").addEventListener("click", function () {
 //   document.querySelector("li:first-child").classList.add("text-danger");
 // });
+
+document.querySelector("#btnAdd").addEventListener("click", function () {
+  let GradeName = document.querySelector("#txtGradeName").value;
+  let Input = document.createElement("input");
+  Input.className = "form-control form-control-sm";
+  Input.type = "number";
+  //String Literal
+  Input.placeholder = `Enter Grade ${GradeName}`;
+
+  let Li = document.createElement("li");
+  Li.className = "mt-2";
+
+  //ipasok si input kay LI
+  Li.append(Input);
+  //   console.log(Li);
+
+  // ipasok si LI kay parent
+  document.querySelector("#ul-parent").append(Li);
+
+  document.querySelector("#txtGradeName").value = "";
+  document.querySelector("#txtGradeName").focus();
+});
+
+document.querySelector("#btnRemove").addEventListener("click", function () {
+  document.querySelector("li:last-child").remove();
+});
