@@ -59,11 +59,25 @@
 // 10
 
 
+// let Min = 5;
+// let Max = 10;
 
-let Min = 5;
-let Max = 10;
+// for (var x = Min; x <= Max; x++)
+// {
+//     console.log(x);
+// }
 
-for (var x = Min; x <= Max; x++)
-{
-    console.log(x);
+
+
+let min = parseInt(prompt("Please enter the minimum value:"));
+let max = parseInt(prompt("Please enter the maximum value:"));
+
+
+if (isNaN(min) || isNaN(max) || min >= max) {
+    console.log("Invalid input. Please enter valid minimum and maximum values.");
+} else {
+
+    for (let x = min; x <= max; x++) {
+        console.log(x);
+    }
 }
