@@ -11,8 +11,6 @@
     };
     spinner();
     
-
-
     // Sticky Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 45) {
@@ -81,6 +79,12 @@
             $("#video").attr('src', $videoSrc);
         })
     });
-
 })(jQuery);
+
+
+
+
+
+
+
 
