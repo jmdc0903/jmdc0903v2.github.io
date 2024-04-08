@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/phLogo.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +25,6 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-
 </head>
 <body>
     <div class="container-xxl bg-white p-0">
@@ -52,20 +51,11 @@
                         <a href="#about-section" class="nav-item nav-link">About</a>
                         <a href="#service-section" class="nav-item nav-link">Service</a>
                         <a href="#menu-section" class="nav-item nav-link">Menu</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="booking.html" class="dropdown-item">Booking</a>
-                                <a href="team.html" class="dropdown-item">Our Team</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            </div>
-                        </div>
                         <a href="#contactUs" class="nav-item nav-link">Contact</a>
                     </div>
                     <a href="#reservation" class="btn btn-primary py-2 px-4">Book A Table</a>
                 </div>
             </nav>
-
             <div class="container-xxl py-5 bg-dark hero-header mb-5">
                 <div class="container my-5 py-5">
                     <div class="row align-items-center g-5">
@@ -83,85 +73,29 @@
         </div>
         <!-- Navbar & Hero End -->
         <!-- Service Start -->
+        <!-- Bootstrap Modal -->
+        <div class="modal fade" id="serviceModal" tabindex="-1" aria-labelledby="serviceModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="serviceModalLabel">Service Description</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body" id="modal-body">
+                <!-- Service Description will be loaded here -->
+              </div>
+            </div>
+          </div>
+        </div>
         <div id="service-section" class="container-xxl py-5">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h5 class="section-title ff-secondary text-center text-primary fw-normal">Our Services</h5>
                     <h1 class="mb-5">Explore Our Services</h1>
                 </div>
-                <div class="row g-4">
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item rounded pt-3">
-                            <div class="p-4">
-                                <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
-                                <h5>Dining Reservations</h5>
-                                <p>Book your table online or by phone to secure your spot for lunch, dinner, or brunch. We offer flexible reservation options to accommodate your schedule.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item rounded pt-3">
-                            <div class="p-4">
-                                <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
-                                <h5>Quality Food</h5>
-                                <p>At PHcuisine, quality is our recipe. Our culinary team is dedicated to sourcing the freshest, highest quality ingredients to create mouthwatering dishes that delight your taste buds. From farm-fresh produce to premium cuts of meat and sustainable seafood, every dish is crafted with care and attention to detail. Experience the difference of quality food at PHcuisine and savor the flavors of perfection with every bite.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-item rounded pt-3">
-                            <div class="p-4">
-                                <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
-                                <h5>Online Order</h5>
-                                <p>Order your favorite dishes from the comfort of your home with PHcuisine, convenient online ordering service. Browse our menu, select your desired items, and simply place your order for pickup or delivery. Whether you're craving a delicious burger, a fresh salad, or a decadent dessert, we've got you covered. Enjoy the convenience of ordering online and indulge in our mouthwatering flavors today!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="service-item rounded pt-3">
-                            <div class="p-4">
-                                <i class="fa fa-3x fa-headset text-primary mb-4"></i>
-                                <h5>Customer Service</h5>
-                                <p>PHcuisine strives to provide exceptional customer service to all our guests, whether in person or over the phone. If you have any further questions or need assistance, feel free to contact us again.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item rounded pt-3">
-                            <div class="p-4">
-                                <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
-                                <h5>Master Chefs | Our Team</h5>
-                                <p>Meet the culinary artisans behind the magic PHcuisine. Our master chefs and talented team bring years of experience and passion to the kitchen, transforming the finest ingredients into culinary masterpieces. With creativity and precision, they craft dishes that tantalize the senses and leave a lasting impression on every palate. From innovative creations to time-honored classics, our team's dedication to excellence shines through in every bite. Join us at PHcuisine and experience the culinary expertise of our master chefs and their talented team firsthand.</p>
-                            </div>`
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item rounded pt-3">
-                            <div class="p-4">
-                                <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
-                                <h5>Catering Services</h5>
-                                <p>Planning a corporate event, wedding, or party? Let us take care of the catering! Choose from our diverse menu options and let our experienced team handle the details.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-item rounded pt-3">
-                            <div class="p-4">
-                                <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
-                                <h5>Special Occasions</h5>
-                                <p>Celebrate birthdays, anniversaries, and other milestones with us! Let us know in advance, and we'll make sure to add special touches to your dining experience.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="service-item rounded pt-3">
-                            <div class="p-4">
-                                <i class="fa fa-3x fa-headset text-primary mb-4"></i>
-                                <h5>Customer Feedback</h5>
-                                <p>We value your feedback! Share your dining experience with us through our online feedback form or social media channels. Your input helps us continuously improve our services.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="row g-4" id="serviceItemsContainer">
                 </div>
             </div>
         </div>
@@ -733,7 +667,6 @@
                 </div>
             </div>
         </div>
-
         <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content rounded-0">
@@ -759,119 +692,7 @@
                     <h5 class="section-title ff-secondary text-center text-primary fw-normal">Team Members</h5>
                     <h1 class="mb-5">Our Master Chefs and Team</h1>
                 </div>
-                <div class="row g-4">
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/teamMembers/Team-Jhoii.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Jhoii Dela Cruz</h5>
-                            <small>Executive Chef</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/teamMembers/Team-Michael.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Michael Dela Cruz</h5>
-                            <small>Sous Chef</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/teamMembers/Team-Eco.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Jerico Rodriguez</h5>
-                            <small>Chef</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/teamMembers/Team-Roger.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Roger Villanueva</h5>
-                            <small>Chef</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/teamMembers/Team-Adrian.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Adrian Angeles</h5>
-                            <small>General Manager / Server / Dishwasher</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/teamMembers/Team-Shelle.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Crushelle Angeles</h5>
-                            <small>Assistant Manager / Server / Dishwasher</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/teamMembers/Team-Rogel.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Rogelio Tibon</h5>
-                            <small>Barista / Server / Dishwasher</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/teamMembers/Team-Regina.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Regina Guevarra</h5>
-                            <small>Cashier / Host / Server</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="row g-4" id="teamMembersContainer">
                 </div>
             </div>
         </div>
@@ -1000,7 +821,5 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <script src="js/reservation.js"></script>
 </body>
-
 </html>
