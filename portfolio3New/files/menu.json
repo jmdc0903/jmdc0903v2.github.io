@@ -1,0 +1,230 @@
+{
+  "dishes":
+[
+    {
+      "name": "Special Ensaymada | Hot Choco",
+      "image": "EnsaymadaChoco.jpg",
+      "category": "Breakfast",
+      "price": "Php200",
+      "description": "Satisfy your sweet cravings with our delectable Ensaymada paired perfectly with rich Hot Chocolate. Indulge in the fluffy, buttery goodness of our Ensaymada, topped with creamy butter, sugar, and grated cheese. Paired with a steaming cup of Hot Chocolate, it's the ultimate comfort combination that will warm your heart and invigorate your senses with every delightful bite and sip."
+    },
+    {
+      "name": "Special Beef Soup",
+      "image": "specialBeefSoup.jpg",
+      "category": "Breakfast",
+      "price": "Php250",
+      "description": "Experience warmth and comfort in every spoonful with our Special Beef Soup. Made with tender beef simmered to perfection in a hearty broth, infused with aromatic herbs and spices. Each bowl is a savory delight, brimming with wholesome goodness and soul-soothing flavors. Whether enjoyed as a starter or a satisfying meal on its own, our Special Beef Soup promises to delight your taste buds and warm your spirit."
+    },
+    {
+      "name": "Special Beef Pares",
+      "image": "specialBeffPares.jpg",
+      "category": "Breakfast",
+      "price": "Php250",
+      "description": "Delight in the savory allure of our Special Beef Pares, a Filipino culinary gem. Succulent beef slices simmered in a flavorful broth, infused with garlic, soy sauce, and spices, creating a tantalizing symphony of flavors. Served with fragrant garlic fried rice and a side of clear soup, it's a meal that satisfies both the palate and the soul, perfect for any occasion."
+    },
+    {
+      "name": "Special Bibingka",
+      "image": "specialBibingka.jpg",
+      "category": "Breakfast",
+      "price": "Php220",
+      "description": "Indulge in the warm, nostalgic flavors of our Special Bibingka. This traditional Filipino treat features a delicate rice cake base, cooked to perfection in banana leaves, then topped with creamy coconut milk, salted egg, and grated cheese. With its irresistible aroma and melt-in-your-mouth texture, our Bibingka is a delightful fusion of sweet and savory, sure to transport you to the heart of Filipino culinary tradition with every bite."
+    },
+    {
+      "name": "Special Lugaw Overload",
+      "image": "specialLugawOverLoad.jpg",
+      "category": "Breakfast",
+      "price": "Php250",
+      "description": "Embark on a comforting journey with our Special Lugaw Overload, a Filipino rice porridge sensation elevated to new heights. Dive into a bowl filled with hearty rice porridge, generously topped with tender chicken or pork, crispy garlic bits, boiled egg, spring onions, and a drizzle of fragrant sesame oil. With its rich flavors and comforting warmth, our Lugaw Overload is the ultimate soul-soothing comfort food, perfect for any time of day."
+    },
+    {
+      "name": "Special Pancit Canton",
+      "image": "specialPancitCanton.jpg",
+      "category": "Breakfast",
+      "price": "Php220",
+      "description": "Experience the delicious fusion of flavors in our Special Pancit Canton. Stir-fried noodles tossed with a colorful medley of fresh vegetables, succulent chicken or pork, and savory soy sauce, creating a harmonious blend of textures and tastes. Each bite is a celebration of Filipino culinary tradition, delivering a burst of savory goodness that's sure to satisfy your cravings and leave you wanting more."
+    },
+    {
+      "name": "Special Pancit Palabok",
+      "image": "specialPancitPalabok.jpg",
+      "category": "Breakfast",
+      "price": "Php200",
+      "description": "Indulge in the vibrant flavors of our Special Pancit Palabok, a Filipino noodle dish that's a feast for the senses. Thin rice noodles bathed in a rich, flavorful shrimp sauce, topped with a medley of toppings including tender pork, smoked fish flakes, boiled eggs, crispy garlic, and green onions. With its harmonious blend of savory, sweet, and tangy flavors, our Pancit Palabok is a culinary delight that promises to leave you craving for another serving."
+    },
+    {
+      "name": "Special Strawberry Pancake",
+      "image": "strawberryPancake.jpg",
+      "category": "Breakfast",
+      "price": "Php200",
+      "description": "Savor the sweetness of our Special Strawberry Pancakes, a delightful twist on a breakfast classic. Fluffy pancakes infused with juicy strawberries, cooked to golden perfection and served with a generous drizzle of maple syrup. Each bite is a burst of fruity goodness, balanced perfectly with the comforting warmth of the pancakes. It's a delectable treat that's sure to brighten your morning and leave you craving more."
+    },
+    {
+      "name": "Special Bulalo",
+      "image": "bulalo.jpg",
+      "category": "Lunch",
+      "price": "Php400",
+      "description": "Indulge in the culinary delight of our signature Special Bulalo—a Filipino comfort food classic with a twist. Our hearty beef shank soup is simmered to perfection, infused with aromatic herbs and spices, and served piping hot with tender meat and flavorful marrow. This dish embodies the essence of home-cooked goodness, offering a comforting and soul-satisfying dining experience that's perfect for any occasion. Savor the rich flavors and warmth of our Special Bulalo—it's a taste of tradition elevated to extraordinary heights."
+    },
+    {
+      "name": "Special Chicken Adobo",
+      "image": "chickenAdobo.jpg",
+      "category": "Lunch",
+      "price": "Php350",
+      "description": "Experience the savory sensation of our Special Chicken Adobo—a timeless Filipino favorite with a unique twist. Our tender chicken pieces are marinated in a harmonious blend of soy sauce, vinegar, garlic, and spices, then slow-cooked to perfection until they reach melt-in-your-mouth perfection. Each bite is a symphony of flavors, combining tangy acidity with savory depth, creating a culinary masterpiece that's sure to tantalize your taste buds."
+    },
+    {
+      "name": "Grilled Pusit",
+      "image": "grilledPusit.jpg",
+      "category": "Lunch",
+      "price": "Php380",
+      "description": "Savor the irresistible flavor of our Grilled Pusit—a seafood delicacy that's sure to tantalize your taste buds. Fresh squid, expertly marinated in a blend of herbs, spices, and citrus, is charred to perfection over an open flame, resulting in a succulent and tender dish with a delightful smoky aroma. Each bite is a symphony of textures, from the tender flesh to the slightly crispy edges, offering a satisfying experience that captures the essence of coastal cuisine."
+    },
+    {
+      "name": "Special Lechon Kawali",
+      "image": "lechonKawali.jpg",
+      "category": "Lunch",
+      "price": "Php380",
+      "description": "Indulge in the irresistible crunch and succulent flavor of our Special Lechon Kawali—a Filipino favorite elevated to perfection. Tender cuts of pork belly are seasoned with aromatic herbs and spices, then slow-cooked to achieve a crispy golden exterior while preserving the juicy tenderness within. Each bite is a symphony of textures and flavors, from the satisfying crunch of the crackling skin to the melt-in-your-mouth goodness of the meat. Served with a side of tangy dipping sauce, our Special Lechon Kawali promises a culinary experience that's both comforting and unforgettable."
+    },
+    {
+      "name": "Special Pork Adobo",
+      "image": "porkAdobo.jpg",
+      "category": "Lunch",
+      "price": "Php380",
+      "description": "Indulge in our savory Special Pork Adobo, a timeless Filipino classic infused with rich flavors of soy sauce, vinegar, garlic, and spices. Tender pork marinated to perfection, simmered low and slow to achieve a tantalizing balance of tangy and savory notes. Served with steaming rice, it's a culinary delight that promises to satisfy your cravings and leave you wanting more."
+    },
+    {
+      "name": "Special Pork Kare-Kare",
+      "image": "porkKarekare.jpg",
+      "category": "Lunch",
+      "price": "Php380",
+      "description": "Savor the exquisite taste of our Special Pork Kare-Kare, a Filipino delicacy featuring succulent pork simmered in a creamy peanut sauce, infused with aromatic spices and served with a medley of tender vegetables. Indulge in this hearty dish, brimming with rich flavors and textures that will tantalize your taste buds and leave you craving for more."
+    },
+    {
+      "name": "Special Pork Sinigang",
+      "image": "porkSinigang.jpg",
+      "category": "Lunch",
+      "price": "Php380",
+      "description": "Experience the comforting tanginess of our Special Pork Sinigang, a beloved Filipino favorite. Tender pork cooked to perfection in a flavorful tamarind broth, complemented by an array of fresh vegetables. With each spoonful, delight in the harmonious balance of sourness and savory goodness that defines this classic dish, perfect for warming the soul and satisfying your appetite."
+    },
+    {
+      "name": "Special Pork Sisig",
+      "image": "porkSisig.jpg",
+      "category": "Lunch",
+      "price": "Php380",
+      "description": "Indulge in our tantalizing Special Pork Sisig, a sizzling Filipino delicacy that bursts with bold flavors and textures. Crispy pork belly, sizzling on the grill, mixed with tangy calamansi juice, onions, and chili peppers, creating a symphony of savory and citrusy notes. With its irresistible aroma and satisfying crunch, our Pork Sisig is sure to captivate your taste buds and leave you craving for more."
+    },
+    {
+      "name": "Grilled Yellowfin Tuna",
+      "image": "grilledYellowfinTuna.jpg",
+      "category": "Dinner",
+      "price": "Php520",
+      "description": "Indulge in the succulent flavors of our Grilled Yellowfin Tuna, a culinary masterpiece fresh from the sea. Sourced from the depths of pristine waters, our yellowfin tuna is expertly grilled to perfection, resulting in a tender, flaky texture with a delightful smoky char. Served with a zesty citrus marinade and a side of fresh greens, it's a seafood lover's dream come true, promising a burst of oceanic flavors in every mouthful."
+    },
+    {
+      "name": "Perfect Medium Steak",
+      "image": "perfectMediumSteak.jpg",
+      "category": "Dinner",
+      "price": "Php600",
+      "description": "Savor the exquisite taste of our Perfect Medium Steak, expertly prepared to juicy perfection. Each bite unveils a tender interior with a succulent, pink center, delicately seared to lock in the savory juices. Paired with your choice of sides and topped with a flavorful herb butter, it's a culinary experience that's sure to delight steak enthusiasts and leave taste buds longing for more."
+    },
+    {
+      "name": "Special Beef Broccoli",
+      "image": "specialBeefBroccoli.jpg",
+      "category": "Dinner",
+      "price": "Php520",
+      "description": "Experience the tantalizing flavors of our Special Beef Broccoli, a savory delight that tantalizes the taste buds. Tender slices of beef stir-fried to perfection, tossed with vibrant broccoli florets and aromatic garlic, all bathed in a savory sauce. With its perfect balance of savory and fresh flavors, this dish promises to satisfy your cravings for a hearty and nutritious meal."
+    },
+    {
+      "name": "Special Beef Kaldereta",
+      "image": "specialBeefKaldereta.jpg",
+      "category": "Dinner",
+      "price": "Php520",
+      "description": "Indulge in the bold flavors of our Special Beef Kaldereta, a Filipino favorite bursting with savory goodness. Tender chunks of beef, slow-cooked to perfection in a rich tomato-based sauce with bell peppers, potatoes, and carrots, creating a symphony of flavors that dance on your palate. With its hearty and comforting appeal, our Beef Kaldereta is a culinary delight that's sure to leave you craving for more."
+    },
+    {
+      "name": "Special Chicken Cordon Bleu",
+      "image": "specialChickenCordonBleu.jpg",
+      "category": "Dinner",
+      "price": "Php520",
+      "description": "Savor the gourmet flair of our Special Chicken Cordon Bleu, a culinary masterpiece that tantalizes the taste buds. Tender chicken breast, delicately stuffed with savory ham and creamy Swiss cheese, then lightly breaded and baked to golden perfection. With each bite, experience a delightful burst of flavors and textures, making it a truly indulgent dining experience."
+    },
+    {
+      "name": "Special Lobster",
+      "image": "specialLobster.jpg",
+      "category": "Dinner",
+      "price": "Php680",
+      "description": "Delight in the opulent flavors of our Special Lobster, a culinary treasure from the sea. Indulge in succulent, tender lobster meat, perfectly prepared to highlight its natural sweetness and delicate texture. Served with a side of drawn butter and fresh lemon, each bite offers a luxurious experience that's sure to satisfy even the most discerning seafood connoisseurs."
+    },
+    {
+      "name": "Special Whole Roast Turkey Dinner",
+      "image": "specialRoastTurkeyDinner.jpg",
+      "category": "Dinner",
+      "price": "Php11,000",
+      "description": "Experience the epitome of holiday indulgence with our Special Whole Roast Turkey Dinner. Succulent, golden-brown turkey, expertly seasoned and roasted to perfection, awaits your enjoyment. Accompanied by a delectable array of classic sides such as savory stuffing, creamy mashed potatoes, tangy cranberry sauce, and crisp green beans, it's a feast that embodies the spirit of celebration and togetherness. Gather your loved ones and savor every moment of this unforgettable culinary experience."
+    },
+    {
+      "name": "Special Tempura",
+      "image": "specialTempura.jpg",
+      "category": "Dinner",
+      "price": "Php600",
+      "description": "Delight in the crispy perfection of our Special Tempura, a Japanese classic reimagined. Succulent shrimp or vegetables, delicately coated in a light, golden batter, then fried to a crisp, golden brown. Served with a side of tangy tempura dipping sauce and a sprinkle of sesame seeds, each bite is a symphony of texture and flavor that promises to transport your taste buds to Japan's bustling street-side eateries."
+    },
+    {
+      "name": "Assorted Doughnuts",
+      "image": "assortedDoughnuts.jpg",
+      "category": "Pastries",
+      "price": "Php400",
+      "description": "Indulge in a variety of sweet delights with our Assorted Doughnuts. Each bite offers a burst of flavor and texture, from classic glazed to chocolate-filled, sprinkled with colorful toppings, and more. Perfect for sharing or savoring solo, our doughnuts promise a delightful treat for any occasion, satisfying every craving with every bite."
+    },
+    {
+      "name": "Assorted Ice Cream",
+      "image": "assortedIceCream.jpg",
+      "category": "Pastries",
+      "price": "Php400",
+      "description": "Experience a symphony of flavors with our Assorted Ice Cream selection. Indulge in a variety of creamy delights, from classic favorites like rich chocolate and velvety vanilla to adventurous flavors like fruity sorbets and indulgent caramel swirls. Each scoop is a blissful journey for your taste buds, offering a refreshing and satisfying treat that's sure to brighten any day."
+    },
+    {
+      "name": "Black Forest Slice",
+      "image": "blackForestSlice.jpg",
+      "category": "Pastries",
+      "price": "Php300",
+      "description": "Satisfy your sweet tooth with our indulgent Black Forest Slice. Layers of moist chocolate cake infused with cherry liqueur, generously filled with whipped cream and cherry compote, and topped with chocolate shavings. Each bite is a symphony of rich flavors and textures, creating a decadent dessert experience that's sure to leave you craving more."
+    },
+    {
+      "name": "Cheesy Baked Mac",
+      "image": "cheesyBakedMacaroni.jpg",
+      "category": "Pastries",
+      "price": "Php400",
+      "description": "Indulge in the creamy comfort of our Cheesy Baked Macaroni. Al dente macaroni enveloped in a luscious blend of melted cheeses, layered with savory ground beef or sausage, and baked to golden perfection. Each bite is a delightful combination of cheesy goodness and hearty flavors, making it a comforting classic that's sure to please every palate."
+    },
+    {
+      "name": "Creamy Carbonara",
+      "image": "creamyCarbonara.jpg",
+      "category": "Pastries",
+      "price": "Php400",
+      "description": "Experience the velvety richness of our Creamy Carbonara. Al dente pasta coated in a luxuriously smooth sauce made with eggs, Parmesan cheese, and crispy bacon or pancetta. Each forkful delivers a perfect balance of creamy indulgence and savory goodness, making it a timeless Italian classic that's sure to satisfy your cravings."
+    },
+    {
+      "name": "Special Fruit Salad",
+      "image": "SpecialfruitSalad.jpg",
+      "category": "Pastries",
+      "price": "Php450",
+      "description": "Delight in the refreshing sweetness of our Special Fruit Salad. A vibrant medley of seasonal fruits, meticulously selected and combined to create a colorful and tantalizing treat. Tossed in a light, creamy dressing and garnished with a sprinkle of nuts or coconut flakes, each spoonful is a burst of freshness and flavor that's perfect for any occasion."
+    },
+    {
+      "name": "Special Leche Plan",
+      "image": "specialLechePlan.jpg",
+      "category": "Pastries",
+      "price": "Php300",
+      "description": "Savor the creamy decadence of our Special Leche Flan. A velvety-smooth custard infused with the rich flavors of caramelized sugar, crafted to perfection with care and expertise. With its delicate texture and irresistible sweetness, each spoonful offers a heavenly indulgence that's sure to leave you craving more."
+    },
+    {
+      "name": "Special Spaghetti",
+      "image": "specialSpaghetti.jpg",
+      "category": "Pastries",
+      "price": "Php400",
+      "description": "Experience the comforting flavors of our Special Spaghetti. Al dente pasta smothered in a rich, savory tomato sauce, brimming with succulent meatballs or ground meat, and sprinkled with a generous dusting of Parmesan cheese. With each forkful, delight in the perfect balance of tangy sweetness and hearty goodness that makes this classic Italian dish a timeless favorite."
+    }
+
+]
+}

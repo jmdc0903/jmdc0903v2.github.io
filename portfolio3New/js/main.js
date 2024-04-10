@@ -61,9 +61,7 @@ const services = [
     { icon: "fa-cart-plus", title: "Special Occasions", description: "Celebrate birthdays, anniversaries, and other milestones with us! Let us know in advance, and we'll make sure to add special touches to your dining experience." },
     { icon: "fa-headset", title: "Customer Feedback", description: "We value your feedback! Share your dining experience with us through our online feedback form or social media channels. Your input helps us continuously improve our services." }
   ];
-
   const serviceItemsContainer = document.getElementById("serviceItemsContainer");
-
   services.forEach((service, index) => {
     const serviceItem = document.createElement('div');
     serviceItem.classList.add('col-lg-3', 'col-sm-6', 'wow', 'fadeInUp');
@@ -79,7 +77,6 @@ const services = [
         </div>
       </div>
     `;
-    
     serviceItemsContainer.appendChild(serviceItem);
   });
 
@@ -123,6 +120,3 @@ const services = [
         `;
         teamMembersContainer.innerHTML += memberHTML;
     });
-
-
-    
