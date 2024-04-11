@@ -9,7 +9,6 @@
         }, 1);
     };
     spinner();
-
     // Sticky Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 45) {
@@ -18,7 +17,6 @@
             $('.navbar').removeClass('sticky-top shadow-sm');
         }
     });
-
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
@@ -31,7 +29,6 @@
         $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
         return false;
     });
-
     // Modal Video
     $(document).ready(function () {
         var $videoSrc;
@@ -39,17 +36,14 @@
             $videoSrc = $(this).data("src");
         });
         // console.log($videoSrc);
-
         $('#videoModal').on('shown.bs.modal', function (e) {
             $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
         })
-
         $('#videoModal').on('hide.bs.modal', function (e) {
             $("#video").attr('src', $videoSrc);
         })
     });
 })(jQuery);
-
 //SERVICES
 const services = [
     { icon: "fa-user-tie", title: "Dining Reservations", description: "Book your table online or by phone to secure your spot for lunch, dinner, or brunch. We offer flexible reservation options to accommodate your schedule." },
@@ -66,7 +60,6 @@ const services = [
     const serviceItem = document.createElement('div');
     serviceItem.classList.add('col-lg-3', 'col-sm-6', 'wow', 'fadeInUp');
     serviceItem.setAttribute('data-wow-delay', `${index * 0.2}s`);
-
     serviceItem.innerHTML = `
       <div class="service-item rounded pt-3">
         <div class="p-4">
@@ -79,16 +72,6 @@ const services = [
     `;
     serviceItemsContainer.appendChild(serviceItem);
   });
-
-  // Add event listener for read more buttons
-  document.querySelectorAll('.read-more-btn').forEach(button => {
-    button.addEventListener('click', () => {
-      const description = button.getAttribute('data-description');
-      document.getElementById('modal-body').innerHTML = description;
-      $('#serviceModal').modal('show');
-    });
-  });
-
 //TEAM MEMBERS
     const teamMembers = [
         { name: "Jhoii Dela Cruz", position: "Executive Chef", image: "Team-Jhoii.jpg" },
@@ -120,3 +103,79 @@ const services = [
         `;
         teamMembersContainer.innerHTML += memberHTML;
     });
+// Fetch, Filter and Render Food Menu
+// Declare Menu Categories
+const categories = [
+    {'breakfast' : 'container-1'}, {'lunch' : 'container-2'}, {'dinner' : 'container-3'}, {'pastries' : 'container-4'}
+]
+// Render list
+async function renderMenu(categories){
+    let response = await fetchMenu();
+    let dishes = response.dishes;
+    let current_categories = categories;
+    current_categories.forEach(function(item){
+        for (const [key, value] of Object.entries(item)) {
+            let container = document.getElementById(`${value}`) // Target container
+            for (let i = 0; i < dishes.length; i++){
+                if(dishes[i].category.toLowerCase() === key){
+                    let divElement = document.createElement('div'); // Declare node element
+                    divElement.classList.add('col-lg-6') // Add Bootstrap Class
+                    // Set layout for the item
+                    let entry = `
+                        <div class="d-flex align-items-start">
+                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu/${key}/${dishes[i].image}" alt="" style="width: 250px; height: 250px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>${dishes[i].name}</span>
+                                    <span class="text-primary">${dishes[i].price}</span>
+                                </h5>
+                                <small class="fst-italic">${dishes[i].description}</small>
+                            </div>
+                        </div>
+                    `;
+                    divElement.innerHTML = entry; // Set HTML to the node element
+                    container.appendChild(divElement); // Add the node to the container
+                }
+            }
+          }
+    })
+}
+// Fetch Dishes from API Endpoint
+async function fetchMenu(){
+    let endpoint = "https://raw.githubusercontent.com/jmdc0903/jmdc0903v2.github.io/main/portfolio3New/files/menu.json"
+    const user = await fetch(endpoint)
+    const result = await user.json()
+    return result
+}
+// Initialize function
+function init(){
+    renderMenu(categories)
+}
+  // Trigger events onload
+  let doc = document.getElementById('main')
+  doc.addEventListener('load', init())
+  // Add event listener for read more buttons
+  document.querySelectorAll('.read-more-btn').forEach(button => {
+    button.addEventListener('click', () => {
+      const description = button.getAttribute('data-description');
+      document.getElementById('modal-body').innerHTML = description;
+      $('#serviceModal').modal('show');
+    });
+  });
+  // Add event listener for toggle theme switch
+  let toggle_btn = document.getElementById('toggleTheme')
+  let navbar = document.getElementById('navbar')
+  toggle_btn.addEventListener('change', function(event){
+        if(event.currentTarget.checked){
+            navbar.classList.remove('navbar-dark')
+            navbar.classList.remove('bg-dark')
+            navbar.classList.add('navbar-light')
+            navbar.classList.add('bg-light')
+        }else{
+            navbar.classList.remove('navbar-light')
+            navbar.classList.remove('bg-light')
+            navbar.classList.add('navbar-dark')
+            navbar.classList.add('bg-dark')
+        }
+  })
+
