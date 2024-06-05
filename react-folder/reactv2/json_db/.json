@@ -1,0 +1,5 @@
+GET http://localhost:8080/items -> Get all items
+GET http://localhost:8080/items/{id} -> Get specific item
+POST http://localhost:8080/items/
+PUT http://localhost:8080/items/{id}
+DELETE http://localhost:8080/items/{id}

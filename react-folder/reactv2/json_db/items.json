@@ -1,0 +1,16 @@
+{
+    "items": [
+      {
+        "id": 1,
+        "sku": "00001",
+        "name": "Shoes",
+        "price": 50
+      },
+      {
+        "id": 2,
+        "sku": "00002",
+        "name": "Bags",
+        "price": 500
+      }
+    ]
+  }
